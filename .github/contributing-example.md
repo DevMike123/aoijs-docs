@@ -2,36 +2,38 @@
 description: Short description of the function.
 ---
 
-# $function 
+## $function 
 
 Explanation of the function and how does it work.
 
 > **This function *is not* an official function[^1].**
 
-### Usage
+## Usage
  
 > *Declaring with '?' at the ends help to show it as 'optional'*
 
 ```php
-$function[param 1;param 2?]
+$function[param1;param2?]
 ```
 
-### Fields 
+## Parameters 
 
-> *Required even for a property*
+> *If there is even one parameter, it should be used.*
 
-| Fields | Description | Type | Required |
-|--------|-------------|------|----------|
-| param 1 | It shows `param 1` | string | yes |
-| param 2 | It shows `param 2` | number | no |
+| FIELD | TYPE | DESCRIPTION |
+| -------- | -------- | -------- |
+| param1 | string | It shows `param1` | 
+| param2 | integer | It shows `param2` | 
 
-#### Param Types 
-> *Required if the property has other options*
+### Parameter Types
+> *Required if the parameter has other options*
 
 * `a` — A type
 * `b` — B type
 
 ## Example(s)
+
+This returns: ...
 
 ```javascript
 bot.command({
@@ -39,7 +41,6 @@ bot.command({
   code: `
   $function[index;aoijs]
   `
-// Returns: ...
 });
 ```
 

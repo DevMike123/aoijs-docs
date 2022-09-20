@@ -32,12 +32,11 @@ npm install aoi.js
 ```javascript
 const aoijs = require("aoi.js")
 
-const bot = new aoijs.Bot({
-  token: "Discord_Bot_Token",
-  prefix: "Discord_Bot_Prefix",
+const bot = new aoijs.AoiClient({
+  token: "DISCORD BOT TOKEN",
+  prefix: "DISCORD BOT PREFIX",
   intents: ["GUILDS", "GUILD_MESSAGES"]
 })
-
 //Events
 bot.onMessage()
 
@@ -71,11 +70,11 @@ bot.interactionCommand({
 
 We would like to build our documentary along with you to make it betters to everyone!
 
-Before contributing please read our [contribution](https://github.com/aoijs/documentation/blob/v5.1.2/.github/docs/contributing.md).
+Before contributing please read our [Contribution Guidelines](https://github.com/aoijs/documentation/blob/v5/.github/docs/contributing.md).
 
 ## Links
 - [Website](https://aoi.js.org)
 - [NPM](https://www.npmjs.com/package/aoi.js)
 - [Github](https://github.com/AkaruiDevelopment/aoi.js)
 - [Discord Server](https://discord.gg/HMUfMXDQsV)
-- [Documentation](https://akarui.leref.ga/v/5/)
+- [Documentation](https://aoi.js.org/docs/)
